@@ -5,5 +5,11 @@ plugins:
   - jekyll-get-json
 
 jekyll_get_json:
-  - data: tokens
-    json: 'https://v1.nocodeapi.com/pglevy/airtable/LDTzULYnuAgBNkGH?tableName=tokens'
+  - data: colors
+    json: 'https://v1.nocodeapi.com/pglevy/airtable/PlbDABvSrEKqjPdL?tableName=color'
+  - data: components
+    json: 'https://v1.nocodeapi.com/pglevy/airtable/LDTzULYnuAgBNkGH?tableName=components'
+
+collections:
+  components:
+    output: true

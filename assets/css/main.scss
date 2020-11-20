@@ -3,8 +3,13 @@
 
 // $theme-color-primary: "blue-70v";
 
-{% for token in site.data.tokens.records %}
-    {{token.fields.name}}: "{{token.fields.value}}";
+{% for color in site.data.colors.records %}
+    {{color.fields.token}}: {{color.fields.value}};
+
+{% endfor %}
+
+{% for component in site.data.components.records %}
+    {{component.fields.name}}: {{component.fields.value}};
 
 {% endfor %}
 
