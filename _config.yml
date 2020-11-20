@@ -1,2 +1,9 @@
 sass:
     sass_dir: assets/uswds/scss
+
+plugins:
+  - jekyll-get-json
+
+jekyll_get_json:
+  - data: tokens
+    json: 'https://v1.nocodeapi.com/pglevy/airtable/LDTzULYnuAgBNkGH?tableName=tokens'

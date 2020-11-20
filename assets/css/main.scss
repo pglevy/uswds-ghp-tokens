@@ -1,4 +1,11 @@
 ---
 ---
 
+// $theme-color-primary: "blue-70v";
+
+{% for token in site.data.tokens.records %}
+    {{token.fields.name}}: "{{token.fields.value}}";
+
+{% endfor %}
+
 @import "uswds";
