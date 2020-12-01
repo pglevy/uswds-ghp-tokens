@@ -1,3 +1,6 @@
+title: USWDS Token Playground
+description: "An experiment with using Jekyll/GHP to build a USWDS site that pulls tokens into SASS from JSON."
+
 sass:
     sass_dir: assets/uswds/scss
 
@@ -13,3 +16,4 @@ jekyll_get_json:
 collections:
   components:
     output: true
+
