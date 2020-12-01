@@ -1,45 +1,45 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 
 <head>
   <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="assets/css/main.css">
 
-  <meta name="theme-color" content="#fafafa">
 </head>
 
-<body>
-<div class="grid-container usa-prose">
-  <!-- Add your site or application content here -->
-  <h1 class="text-primary">USWDS Design Token Playground</h1>
-  <p>The purpose of this site is to allow designers and developers to quickly experiment with how design tokens can be used to theme components using the built-in theming functionality of the Design System.</p>
-  <p>The theme tokens are pulled into the site from <a href="https://airtable.com/shrKuupgOGUeWcUyb/tblwyckknoJMQjlkN" class="usa-link">this Airtable database.</a></p>
-
-  <!-- {% for color in site.data.colors.records %}
-  {{color.fields.token}}: {{color.fields.value}};
-
-{% endfor %} -->
-
-
-
-{% for component in site.components %}
-<h2>{{component.title}}</h2>
-{{ component.content | markdownify }}
-{% endfor %}
-
+<body class="padding-bottom-9">
+<div class="grid-container-widescreen usa-prose">
+  <div class="grid-row">
+    <div class="grid-col-fill">
+      <h1 class="text-primary"><a href="{{site.url}}">USWDS Design Token Playground</a></h1>
+      <p>The purpose of this site is to allow designers and developers to quickly experiment with how design tokens can be used to theme components using the built-in theming functionality of the Design System.</p>
+      <p>The theme tokens are pulled into the site from <a href="https://airtable.com/shrKuupgOGUeWcUyb/tblwyckknoJMQjlkN" class="usa-link">this Airtable database.</a></p>
+    </div>
+  </div>
+  <div class="grid-row">
+    <div class="grid-col-2 padding-right-2">
+      <nav aria-label="Secondary navigation" class="position-sticky">
+        <ul class="usa-sidenav">
+          {% for component in site.components %}
+          <li class="usa-sidenav__item">
+          <a href="#{{ component.title | slugify }}">{{component.title}}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+    <div class="grid-col-fill">
+      {% for component in site.components %}
+      <h2 id="{{ component.title | slugify }}">{{component.title}}</h2>
+      {{ component.content | markdownify }}
+      <hr class="margin-bottom-5">
+      {% endfor %}
+    </div>
+  </div>
 </div>
   <script src="assets/uswds/js/uswds.js"></script>
 
