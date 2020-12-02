@@ -1,22 +1,16 @@
 ---
 ---
-
+// for testing
 // $theme-color-primary: "blue-70v";
 
 // for nocodeapi
-// {% for color in site.data.colors.records %}
-//     {{color.fields.token}}: {{color.fields.value}};
-
-// {% endfor %}
-
-// {% for component in site.data.components.records %}
-//     {{component.fields.name}}: {{component.fields.value}};
-
-// {% endfor %}
+{% for color in site.data.api-colors.records %}
+    {{color.fields.token}}: {{color.fields.value}};
+{% endfor %}
 
 // for local data file (exported csv from airtable)
-{% for color in site.data.colors %}
-    {{color.token}}: {{color.value}};
-{% endfor %}
+// {% for color in site.data.colors %}
+//     {{color.token}}: {{color.value}};
+// {% endfor %}
 
 @import "uswds";

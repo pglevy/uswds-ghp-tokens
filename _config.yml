@@ -8,9 +8,9 @@ plugins:
   - jekyll-get-json
 
 # for nocodeapi
-# jekyll_get_json:
-#   - data: colors
-#     json: 'https://v1.nocodeapi.com/pglevy/airtable/PlbDABvSrEKqjPdL?tableName=color'
+jekyll_get_json:
+  - data: api-colors
+    json: 'https://v1.nocodeapi.com/pglevy/airtable/PlbDABvSrEKqjPdL?tableName=color'
 #   - data: components
 #     json: 'https://v1.nocodeapi.com/pglevy/airtable/LDTzULYnuAgBNkGH?tableName=components'
 
