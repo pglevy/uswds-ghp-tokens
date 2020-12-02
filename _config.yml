@@ -7,14 +7,16 @@ sass:
 plugins:
   - jekyll-get-json
 
-jekyll_get_json:
-  - data: colors
-    json: 'https://v1.nocodeapi.com/pglevy/airtable/PlbDABvSrEKqjPdL?tableName=color'
-  - data: components
-    json: 'https://v1.nocodeapi.com/pglevy/airtable/LDTzULYnuAgBNkGH?tableName=components'
+# for nocodeapi
+# jekyll_get_json:
+#   - data: colors
+#     json: 'https://v1.nocodeapi.com/pglevy/airtable/PlbDABvSrEKqjPdL?tableName=color'
+#   - data: components
+#     json: 'https://v1.nocodeapi.com/pglevy/airtable/LDTzULYnuAgBNkGH?tableName=components'
 
 collections:
   components:
     output: true
 
+# This is just to force a rebuild on GitHub Pages if it fails for some reason. It seems to fail periodically.
 rebuild: 1

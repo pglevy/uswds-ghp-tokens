@@ -1,0 +1,79 @@
+token,value,group
+$theme-color-accent-cool-family,'cyan',Accent cool colors
+$theme-color-accent-cool-lightest,false,Accent cool colors
+$theme-color-accent-cool-lighter,'cyan-5',Accent cool colors
+$theme-color-accent-cool-light,'cyan-20',Accent cool colors
+$theme-color-accent-cool,'cyan-30',Accent cool colors
+$theme-color-accent-cool-dark,'cyan-40',Accent cool colors
+$theme-color-accent-cool-darker,'cyan-60',Accent cool colors
+$theme-color-accent-cool-darkest,false,Accent cool colors
+$theme-color-accent-warm-family,'red',Accent warm colors
+$theme-color-accent-warm-lightest,false,Accent warm colors
+$theme-color-accent-warm-lighter,'red-cool-10',Accent warm colors
+$theme-color-accent-warm-light,'red-cool-20v',Accent warm colors
+$theme-color-accent-warm,'red-70v',Accent warm colors
+$theme-color-accent-warm-dark,'red-80v',Accent warm colors
+$theme-color-accent-warm-darker,'red-80v',Accent warm colors
+$theme-color-accent-warm-darkest,false,Accent warm colors
+$theme-color-base-family,'gray-cool',Base colors
+$theme-color-base-lightest,'gray-5',Base colors
+$theme-color-base-lighter,'gray-cool-10',Base colors
+$theme-color-base-light,'gray-cool-30',Base colors
+$theme-color-base,'gray-cool-50',Base colors
+$theme-color-base-dark,'gray-cool-60',Base colors
+$theme-color-base-darker,'gray-cool-70',Base colors
+$theme-color-base-darkest,'gray-90',Base colors
+$theme-color-base-ink,'gray-90',Base colors
+$theme-color-disabled-family,'gray',Disabled colors
+$theme-color-disabled-light,'gray-10',Disabled colors
+$theme-color-disabled,'gray-20',Disabled colors
+$theme-color-disabled-dark,'gray-30',Disabled colors
+$theme-color-error-family,'red-warm',Error colors
+$theme-color-error-lighter,'red-warm-10',Error colors
+$theme-color-error-light,'red-warm-30v',Error colors
+$theme-color-error,'red-warm-50v',Error colors
+$theme-color-error-dark,'red-60v',Error colors
+$theme-color-error-darker,'red-70',Error colors
+$theme-color-info-family,'cyan',Info colors
+$theme-color-info-lighter,'cyan-5',Info colors
+$theme-color-info-light,'cyan-20',Info colors
+$theme-color-info,'cyan-30v',Info colors
+$theme-color-info-dark,'cyan-40v',Info colors
+$theme-color-info-darker,'blue-cool-60',Info colors
+$theme-link-color,'primary',Links
+$theme-link-hover-color,'primary-dark',Links
+$theme-link-active-color,'primary-darker',Links
+$theme-link-visited-color,'primary',Links
+$theme-link-reverse-color,'base-lighter',Links
+$theme-link-reverse-hover-color,'base-lightest',Links
+$theme-link-reverse-active-color,'white',Links
+$theme-color-primary-family,'violet-warm-vivid',Primary colors
+$theme-color-primary-lightest,false,Primary colors
+$theme-color-primary-lighter,'violet-10v',Primary colors
+$theme-color-primary-light,'violet-30v',Primary colors
+$theme-color-primary,'violet-warm-60v',Primary colors
+$theme-color-primary-vivid,'violet-60v',Primary colors
+$theme-color-primary-dark,'violet-warm-70v',Primary colors
+$theme-color-primary-darker,'violet-warm-80v',Primary colors
+$theme-color-primary-darkest,false,Primary colors
+$theme-color-secondary-family,'mint',Secondary colors
+$theme-color-secondary-lightest,false,Secondary colors
+$theme-color-secondary-lighter,'mint-10v',Secondary colors
+$theme-color-secondary-light,'mint-30v',Secondary colors
+$theme-color-secondary,'mint-50',Secondary colors
+$theme-color-secondary-vivid,'mint-cool-50v',Secondary colors
+$theme-color-secondary-dark,'mint-60v',Secondary colors
+$theme-color-secondary-darker,'mint-70v',Secondary colors
+$theme-color-secondary-darkest,false,Secondary colors
+$theme-color-success-family,'green-cool',Success colors
+$theme-color-success-lighter,'green-cool-5',Success colors
+$theme-color-success-light,'green-cool-20v',Success colors
+$theme-color-success,'green-cool-40v',Success colors
+$theme-color-success-dark,'green-cool-50',Success colors
+$theme-color-success-darker,'green-cool-60',Success colors
+$theme-color-warning-family,'gold',Warning colors
+$theme-color-warning-lighter,'yellow-5',Warning colors
+$theme-color-warning-light,'yellow-10v',Warning colors
+$theme-color-warning,'gold-20v',Warning colors
+$theme-color-warning-dark,'gold-30v',Warning colors
+$theme-color-warning-darker,'gold-50v',Warning colors

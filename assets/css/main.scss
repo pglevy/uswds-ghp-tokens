@@ -3,14 +3,20 @@
 
 // $theme-color-primary: "blue-70v";
 
-{% for color in site.data.colors.records %}
-    {{color.fields.token}}: {{color.fields.value}};
+// for nocodeapi
+// {% for color in site.data.colors.records %}
+//     {{color.fields.token}}: {{color.fields.value}};
 
-{% endfor %}
+// {% endfor %}
 
-{% for component in site.data.components.records %}
-    {{component.fields.name}}: {{component.fields.value}};
+// {% for component in site.data.components.records %}
+//     {{component.fields.name}}: {{component.fields.value}};
 
+// {% endfor %}
+
+// for local data file (exported csv from airtable)
+{% for color in site.data.colors %}
+    {{color.token}}: {{color.value}};
 {% endfor %}
 
 @import "uswds";
